@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  width: 80px;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &_item {
+    border: 2px solid rgb(170, 170, 170);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+
+    &.active {
+      background-color: rgb(182, 182, 182);
+      color: #fff;
+    }
+  }
+}
